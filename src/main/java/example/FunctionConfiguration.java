@@ -24,7 +24,7 @@ public class FunctionConfiguration {
 				throw new RuntimeException("Intentional exception");
 			}
 			else {
-				return value.toUpperCase();
+				return "Hello World";
 			}
 		};
 	}
