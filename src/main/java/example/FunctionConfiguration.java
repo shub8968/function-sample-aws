@@ -24,6 +24,7 @@ public class FunctionConfiguration {
 				throw new RuntimeException("Intentional exception");
 			}
 			else {
+				System.out.println("Shubham!!");
 				return "Hello World";
 			}
 		};
