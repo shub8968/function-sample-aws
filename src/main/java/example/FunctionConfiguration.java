@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class FunctionConfiguration {
 	public static void main(String[] args) {
-        SpringApplication.run(CloudFunctionApplication.class, args);
+        //SpringApplication.run(CloudFunctionApplication.class, args);
     }
     @Bean
     public Function<String, String> reverseString() {
