@@ -12,7 +12,7 @@ public class FunctionConfiguration {
         //SpringApplication.run(CloudFunctionApplication.class, args);
     }
     @Bean
-    public Function<String, String> reverseString() {
+    public static Function<String, String> myfunc() {
         return value ->"Shubham";
     }
 }
