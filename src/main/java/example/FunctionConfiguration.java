@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Bean;
 public class FunctionConfiguration {
 	public static void main(String[] args) {
         //SpringApplication.run(CloudFunctionApplication.class, args);
+		System.out.println(myfunc());
     }
     @Bean
     public static Function<String, String> myfunc() {
